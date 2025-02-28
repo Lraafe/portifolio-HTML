@@ -14,8 +14,8 @@ body{
 }
 
 .minha-cara{
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 35%;
+    max-height: 35%;
 }
 
 .golira{
@@ -54,18 +54,28 @@ body{
 
 .apresentacao__links{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo{
+    font-family: "Krona One";
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .apresentacao__links__link{
-    background-color: #22D4fD;
-    width: 250px;
-    border-radius: 16px;
+    /* background-color: #22D4fD; */
+    width: 378px;
+    border: 2px solid #22D4fD;
+    border-radius: 8px;
     font-size: 24px;
     text-align: center;
     padding: 21.5px 0px;
     text-decoration: none;
-    color: #000000;
+    color: #f6f6f6;
     font-family: "montserrat";
     font-weight: 600;
 }
